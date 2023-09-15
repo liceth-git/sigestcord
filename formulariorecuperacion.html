@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estiloformularios.css">
+    <title>FomularioRegistro</title>
+
+</head>
+    <body>
+    <section class="form_olvidoPAS">
+    <h1>Restablecer Contraseña</h1>
+    <div class="container_logo3">
+        <img src="images/carta_logo.png" alt="logo" class="logo3">
+     </div>
+    <form action="#" method="POST">
+    <label for="Documento">Tipo De documento</label>
+    <select name="Documento" id="documento" required>
+        <option value="Cedula de Ciudadania">Cedula De Ciudadania</option>
+        <option value="Pasaporte">Pasaporte</option>
+        <option value="Permiso Especial de Permanecia">Permiso Especial de  Permanecia</option>
+    </select>
+
+    <label for="cedula">Cédula:</label>
+    <input class="Controls2" type="text" id="cedula" name="cedula"  pattern="[0-9]+" maxlength="10"  required>
+    
+    <label for="nueva-contrasena">Nueva Contraseña:</label>
+    <input class="Controls2" type="password" id="nueva-contrasena" name="nueva-contrasena" required>
+
+    <label for="confirmar-contrasena">Confirmar Contraseña:</label>
+    <input  class="Controls2"  type="password" id="confirmar-contrasena" name="confirmar-contrasena" required> <br>
+    <input class="Buttons2"   type="submit" value="Restablecer Contraseña">
+    
+    <p><a href="formularioinicio.html"> Volver </a></p>
+    <p><a href="principal.html"> Inicio </a></p>
+    </form>
+    </section>
+</body>
+</html>

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estiloformularios.css">
+    <title>FomularioRegistro</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <center>
+    <section class="From_Registro">
+        <h3>Registro</h3>
+         <div class="container_logo2">
+            <img src="images/carta_logo.png" alt="logo" class="logo2">
+         </div>
+         <form action="registro.php" method="POST" >
+            <div class="From_Registro__Columna">
+                <div class="From_Registro__Fila">
+                    <label for="tipoDocumento">Tipo de documento:</label>
+                    <select id="tipoDocumento" name="tipoDocumento">
+                        <option value="Cc">Cedula de Ciudadania</option>
+                        <option value="pasaporte">Pasaporte</option>
+                        <option value="Cedula de Extrangería">Cedula de Extrangería</option>
+                        <option value="Permiso Especial de Permanecia">Permiso Especial de Permanecia</option>
+                    </select>
+                </div>
+                <div class="From_Registro__Fila">
+                    <label for="documento">Numero de documento:</label>
+                    <input class="Controls1" type="text" id="documento" name="documento" pattern="[0-9]+" maxlength="13" required>
+                </div>
+                <div class="From_Registro__Fila">
+                    <label for="primerNombre">Primer Nombre:</label>
+                    <input class="Controls1" type="text" id="primerNombre" name="primerNombre" pattern="[A-Za-záéíóúÁÉÍÓÚñÑ\s]+" required>
+                </div>
+                <div class="From_Registro__Fila">
+                    <label for="segundoNombre">Segundo Nombre:</label>
+                    <input class="Controls1" type="text" id="segundoNombre" name="segundoNombre" pattern="[A-Za-záéíóúÁÉÍÓÚñÑ\s]+" >
+                </div>
+            </div>
+            <div class="From_Registro__Columna">
+                <div class="From_Registro__Fila">
+                    <label for="PrimerAepllido">Primer Apellido:</label>
+                    <input class="Controls1" type="text" id="PrimerAepllido" name="PrimerAepllido" pattern="[A-Za-záéíóúÁÉÍÓÚñÑ\s]+" required>
+                </div>
+                <div class="From_Registro__Fila">
+                    <label for="SegundoApellido">Segundo Apellido:</label>
+                    <input class="Controls1" type="text" id="SegundoApellido" name="SegundoApellido" pattern="[A-Za-záéíóúÁÉÍÓÚñÑ\s]+" required>
+                </div>
+                <div class="From_Registro__Fila">
+                    <label for="email">Email:</label>
+                    <input class="Controls1" type="email" name="email" required>
+                </div>
+                <div class="From_Registro__Fila">
+                    <label for="telefono">Teléfono:</label>
+                    <input class="Controls1" type="text" id="telefono" name="telefono" pattern="[0-9]+" maxlength="10" required>
+                </div>
+            </div>
+            <button class="Buttons1" type="submit">Registrar</button>
+            
+        </form>
+        
+        <p><a href="formularioinicio.html">Ya tengo Cuenta</a></p>
+        <p><a href="principal.html">Inicio</a></p>
+        <div id="mensaje" style="display: none;"></div>
+        <div id="mensajeExito" style="display: none;">¡La operación se ha realizado con éxito!</div>
+    </section>
+     
+</center>
+<script>
+    function mostrarMensajeExito() {
+      var mensajeExito = document.getElementById("mensajeExito");
+      mensajeExito.style.display = "block"; 
+      return true; 
+    }
+</script>
+
+</body>
+</html>

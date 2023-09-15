@@ -1,0 +1,263 @@
+body{
+   
+   
+    font-family: "lato", sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+    background:#ccc;
+   
+  
+ }
+ 
+ 
+ .form_login {
+   position: relative;
+    width: 380px;
+    height: 350px;
+    background:rgb(44, 62, 80);
+    border: 1px  #1b22b4;
+    border-radius: 5px;
+    margin: 50px auto;
+    padding: 20px;
+    text-align: center;
+    color: whitesmoke;
+    box-shadow: 0 8px 6px rgba(5, 0, 5, .5);
+  }
+  
+  h3 {
+    
+    margin: 0;
+    margin-bottom: 20px;
+    font-size: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .Controls {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  
+  }
+  
+  .Buttons {
+    display: block;
+    width: 103%;
+    padding: 9px;
+    background-color: #031b1f;
+    color: white;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: 0 8px 6px rgba(0, 0, 0, .3);
+  }
+  
+  p {
+    margin-bottom: 0;
+  }
+ 
+  .From_Registro {
+   position: relative;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background:rgb(44, 62, 80);
+    border: 1px solid #031b1f;
+    border-radius: 5px;
+    color: aliceblue;
+    box-shadow: 0 8px 6px rgba(0, 0, 0, 0.3);
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+     grid-column: auto;
+     
+     
+  }
+  
+  .From_Registro h3 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .From_Registro form {
+    display: table;
+    width: 100%;
+  }
+  
+  .From_Registro .From_Registro__Columna {
+    display: table-cell;
+    vertical-align: top;
+    padding: 10px;
+  }
+  
+  .From_Registro .From_Registro__Fila {
+    margin-bottom: 10px;
+  }
+  
+  .From_Registro label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .From_Registro input,
+  .From_Registro select {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .Buttons1 {
+    display: block;
+    margin:  auto;
+    width: 200px;
+    padding: 10px;
+    background-color: #031b1f;
+    color: white;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: 0 8px 6px rgba(0, 0, 0, 0.3);
+  }
+  
+  p {
+    margin-bottom: 0;
+    text-align: center;
+  }
+  
+  a {
+    color: aliceblue;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: #1abfca;
+    text-decoration: underline;
+  }
+  
+  .Buttons1:hover {
+    background-color: #1abfca;
+    color: #ffffff;
+  }
+ 
+  body{
+ 
+   font-family: "lato", sans-serif;
+   font-size: 16px;
+   line-height: 1.5;
+   text-align: center;
+  
+ 
+ }
+ 
+ .form_olvidoPAS {
+   position: relative;
+   width: 300px;
+   height: 380px;
+   background:rgb(44, 62, 80);
+   border: 10px  #1b22b4;
+   border-radius: 10px;
+   margin: 20px auto;
+   padding: 60px;
+   text-align: center;
+   color: whitesmoke;
+   box-shadow: 0 8px 6px rgba(5, 0, 5, .5);
+ }
+ 
+ h2 {
+   margin: 2%;
+   margin-bottom: 10px;
+   font-size: 20px;
+ }
+ 
+ label {
+  
+   margin-bottom: 13px;
+ }
+ 
+ .Controls2 {
+   width: 100%;
+   padding: 5px;
+   margin-bottom: 14px;
+   border-radius: 20px;
+   border: 1px solid #ccc;
+ 
+ }
+ 
+ .Buttons2 {
+   display: block;
+   width: 100%;
+   padding: 10px;
+   background-color: #031b1f;
+   color: white;
+   border: none;
+   text-align: center;
+   text-decoration: none;
+   cursor: pointer;
+   border-radius: 5px;
+   box-shadow: 0 8px 6px rgba(0, 0, 0, .3);
+ }
+ 
+ p {
+   margin-bottom: 0;
+ }
+ 
+ .Buttons3:hover {
+   background-color: #1abfca;
+   color: #ffffff;
+ }
+ .container_logo1 {
+   position: absolute;
+   top: 15%;
+   right: 0%;
+   transform: translate(-50%,-50%);
+  
+ }
+ .logo1 {
+   max-width: 100px;
+   height: auto;
+ 
+ }
+ .container_logo3 {
+   position: absolute;
+   top: 9%;
+   right: -12%;
+   transform: translate(-50%,-50%);
+  
+ }
+ .logo3 {
+   max-width: 100px;
+   height: auto;
+ 
+ }
+ h1{
+   position: absolute;
+   top: 4%;
+   right:-10%;
+   transform: translate(-50%,-50%);
+   margin: 10px;
+   margin-bottom: 16px;
+   font-size: 25px;
+ }
+ .container_logo2 {
+   position: absolute;
+   top: 8%;
+   right: 26%;
+   transform: translate(-50%,-50%);
+  
+ }
+ .logo2 {
+   max-width: 70px;
+   height: auto;
+ }

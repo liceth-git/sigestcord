@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estiloformularios.css">
+    <title>FormularioLogin</title>
+</head>
+<body>
+    <section class="form_login">
+        <h2>Bienvenido</h2>
+        <div class="container_logo1">
+            <img src="images/carta_logo.png" alt="logo" class="logo1">
+        </div>
+        <form name="loginForm" onsubmit="return validarFormulario()" action="index.html" method="get">
+            <div>
+                <label for="Usuario">Usuario</label>
+                <input class="Controls" type="text" name="Usuario" required><br>
+                <label for="contraseña">Contraseña</label>
+                <input class="Controls" type="password" name="password" required><br>
+                <button class="Buttons" type="submit">Ingresar</button>
+            </div>
+        </form>
+        <p><a href="formulariorecuperacion.html">Olvidaste tu contraseña</a></p>
+        <p><a href="formularioregistro.html">Regístrate</a></p>
+        <p><a href="principal.html">Inicio</a></p>
+    </section>
+    <script src="js/forminicio.js"></script>
+</body>
+</html>

@@ -1,0 +1,228 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+  }
+  
+body, html{
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+  .dashboard {
+    display: flex;
+  min-height: 100vh;
+  margin: 0 auto;
+  align-items: auto;
+  }
+  
+  .sidebar {
+    width: 250px;
+    background-color: #1547b3;
+    color: white;
+    padding: 20px;
+  }
+  
+  .user-profile {
+    text-align: center;
+  }
+  
+  .profile-image {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+  
+  .profile-image img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+  }
+  
+  .menu {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 20px;
+  }
+  
+  .menu li {
+    margin-bottom: 10px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  }
+  
+  .menu li:last-child {
+    border-bottom: none;
+  }
+  
+  .menu li a {
+    color: white;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    transition: background-color 0.3s;
+  }
+  
+  .menu li a:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+  
+  .menu li a i {
+    margin-right: 10px;
+  }
+  
+  .content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:rgb(44, 62, 80);
+    color: white;
+    padding: 10px 20px;
+  }
+  
+  .logo img {
+    width: 50px; /* Ajusta el ancho del logo */
+    height: 40px; /* Ajusta la altura del logo */
+    margin-right: 10px;
+  }
+
+  .notifications {
+    position: relative;
+    cursor: pointer;
+    display: flex;
+  }
+  
+  .notifications .badge {
+    position: absolute;
+    top: -5px;
+    right: -5px;
+    background-color: red;
+    color: white;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 20px;
+  }
+  .main-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+  }
+  
+  .statistics-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .statistics-card-1{
+    flex: 1;
+    background-color: #a82626;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 10px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .statistics-card{
+    flex: 1;
+    background-color: #a82626;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 10px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+
+
+  .statistics-card h3 {
+    margin: 0;
+    font-size: 18px;
+    color: #ddd;
+  }
+
+  .statistics-card.card-solicitudes {
+    background-color: #3498db; /* Color azul */
+  }
+  
+  .statistics-card.card-entrantes {
+    background-color: #27ae60; /* Color verde */
+  }
+  
+  .statistics-card.card-salientes {
+    background-color: #e74c3c; /* Color rojo */
+  }
+  
+  .statistics-card.card-pendientes {
+    background-color: #f39c12; /* Color amarillo */
+  }
+
+  .chart-container {
+    width: 50%;
+    height: 200px;
+    margin: auto;
+    display: flex;
+  }
+  
+.correspondence-table {
+  width: 50%;
+  height: 20%;
+  border-collapse: collapse;
+  margin: 20px auto;
+  font-family: Arial, sans-serif;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  font-size: 14px; /* Ajusta el tamaño de la fuente */
+  margin-top: 10px; /* Agrega espacio arriba de la tabla */
+}
+
+.correspondence-table tr {
+  background-color: #f2f2f2;
+  border-bottom: 1px solid #ddd;
+}
+
+.correspondence-table th, .correspondence-table td {
+  padding: 5px;
+  text-align: left;
+}
+
+.correspondence-table th {
+  background-color: #3498db;
+  color: white;
+  font-weight: bold;
+}
+
+.correspondence-table td img {
+  width: 40px;
+  height: 40px;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
+.correspondence-table td:first-child {
+  text-align: center;
+}
+
+.correspondence-table td:nth-child(2) {
+  font-weight: bold;
+}
+
+.correspondence-table td:last-child {
+  text-align: right;
+}
+
+/* Opcional: Estilos adicionales para resaltar al pasar el ratón */
+.correspondence-table tr:hover {
+  background-color: #e0e0e0;
+}

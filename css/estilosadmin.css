@@ -1,0 +1,118 @@
+.buttons-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100px;
+  }
+  
+  .square-button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 120px;
+    height: 120px;
+  }
+  
+  .square-button:hover {
+    background-color: #0056b3;
+  }
+
+  .crud-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .crud-card {
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    padding: 20px;
+    flex: 1;
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+  .crud-card h2 {
+    font-size: 18px;
+  }
+  .crud-card i {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  .crud-button {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 5px;
+  }
+  .crud-button:hover {
+    background-color: #0056b3;
+  }
+
+  .button-area {
+    width: 100%; /* Ocupa toda la anchura disponible */
+    text-align: center; /* Centra los botones horizontalmente */
+    margin-top: 10px; /* Espacio superior para separarlo de la tarjeta superior */
+  }
+  
+  .user-form {
+    background-color: #f7f7f7;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .user-form h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #007BFF;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-group label {
+    display: block;
+    font-size: 18px;
+    margin-bottom: 5px;
+    color: #333;
+  }
+  
+  .form-group input,
+  .form-group select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .btn-submit {
+    background-color: rgb(44, 62, 80);
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-submit:hover {
+    background-color: rgb(95, 160, 224);
+  }
+  
